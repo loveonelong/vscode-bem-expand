@@ -12,7 +12,7 @@ export function expand() {
 
     let langId = editor.document.languageId;
 
-    if (langId !== 'html' && langId !== 'typescriptreact' && langId != 'javascriptreact') {
+    if (langId !== 'html' && langId !== 'typescriptreact' && langId != 'javascriptreact' && langId !== 'vue') {
         return;
     }
 
